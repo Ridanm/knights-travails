@@ -1,4 +1,4 @@
-require './boxes.rb'
+require_relative 'boxes'
 
 class Board 
   include Boxes 
