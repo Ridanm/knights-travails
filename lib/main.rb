@@ -1,8 +1,8 @@
-require './board.rb'
-require './box.rb'
-require './boxes.rb'
-require './knights.rb'
-require './search_moves.rb'
+require_relative 'board'
+require_relative 'box'
+require_relative 'boxes'
+require_relative 'knights'
+require_relative 'search_moves'
 
 board = Board.new 
 knight = Knight.new
