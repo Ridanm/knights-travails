@@ -12,11 +12,11 @@ module Boxes
   }
 
   def red_dot 
-    " \u2022 ".red 
+    " \u227B ".red # u2022
   end
 
   def blue_dot 
-    " \u2022 ".light_blue
+    " \u2297 ".light_blue
   end
 end
 
