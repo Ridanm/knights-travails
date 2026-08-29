@@ -8,7 +8,7 @@ class Knight
   end 
 
   def black 
-    " \u265E ".black
+    " \u265E "
   end
 
   def is_valid?(row, column) 
