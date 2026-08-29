@@ -11,9 +11,9 @@ class Board
     for row in 1..8 do 
       for column in 0..7 do 
         if (row + column) % 2 == 0 
-          BOARD[row][column] = Box.new('light_yellow')
+          BOARD[row][column] = Box.new('light_cyan')
         else 
-          BOARD[row][column] = Box.new('yellow')
+          BOARD[row][column] = Box.new('green')
         end
       end
     end
